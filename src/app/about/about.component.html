@@ -1,1 +1,26 @@
-<p>about works!</p>
+<div>
+  <h1>Introducing Angular Router</h1>
+  <p>
+    Angular Router is a powerful JavaScript router built and maintained by the Angular core team that can be installed from the
+    @angular/router package. It provides a complete routing library with the possibility to have multiple router outlets, different path
+    matching strategies, easy access to route parameters and route guards to protect components from unauthorized access.The Angular router
+    is a core part of the Angular platform. It enables developers to build Single Page Applications with multiple views and allow navigation
+    between these views. <br>
+    Let’s now see the essential Router concepts in more details.
+  </p>
+  <h2>THE ROUTER-OUTLET</h2>
+  <p>
+    The Router-Outlet is a directive that’s available from the router library where the Router inserts the component that gets matched based
+     on the current browser’s URL. You can add multiple outlets in your Angular application which enables you to implement advanced routing
+     scenarios.
+    Any component that gets matched by the Router will render it as a sibling of the Router outlet.
+  </p>
+  <h2>ROUTES AND PATHS</h2>
+  <p>
+    Routes are definitions (objects) comprised from at least a path and a component (or a redirectTo path) attributes. The path refers to
+    the part of the URL that determines a unique view that should be displayed, and component refers to the Angular component that needs to
+    be associated with a path. Based on a route definition that we provide (via a static RouterModule.forRoot(routes) method), the Router is
+    able to navigate the user to a specific view. Each Route maps a URL path to a component.
+  </p>
+
+</div>

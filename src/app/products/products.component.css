@@ -1,0 +1,8 @@
+div {
+  background-image: url(C:\Users\Shiwani\firstproject\src\app\Image\angular-products.png);
+  height: 100vh;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
